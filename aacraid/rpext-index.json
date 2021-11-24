@@ -1,14 +1,14 @@
 {
   "id": "pocopico.aacraid",
-  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/rpext-index.json",
+  "url": "https://github.com/jls550225/dsm/blob/main/aacraid/rpext-index.json",
   "info": {
     "name": "aacraid",
     "description": "Adds Dell PERC2, 2/Si, 3/Si, 3/Di, Adaptec Advanced Raid Products, HP NetRAID-4M, IBM ServeRAID & ICP SCSI driver Support",
-    "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/aacraid",
+    "author_url": "https://github.com/jls550225/dsm/blob/main",
+    "packer_url": "https://github.com/jls550225/dsm/blob/main/aacraid",
     "help_url": "<todo>"
   },
   "releases": {
-    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/ds3615xs_42218.json"
+    "ds3615xs_42218": "https://github.com/jls550225/dsm/blob/main/aacraid/releases/ds3615xs_42218.json"
   }
 }
