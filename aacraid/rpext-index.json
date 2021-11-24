@@ -4,7 +4,7 @@
   "info": {
     "name": "aacraid",
     "description": "Adds Dell PERC2, 2/Si, 3/Si, 3/Di, Adaptec Advanced Raid Products, HP NetRAID-4M, IBM ServeRAID & ICP SCSI driver Support",
-    "author_url": "https://github.com/jls550225/dsm/blob/main",
+    "author_url": "https://github.com/jls550225",
     "packer_url": "https://github.com/jls550225/dsm/blob/main/aacraid",
     "help_url": "<todo>"
   },
