@@ -1,0 +1,14 @@
+{
+  "id": "jls550225.8139too",
+  "url": "https://raw.githubusercontent.com/jls550225/dsm/master/8139too/rpext-index.json",
+  "info": {
+    "name": "8139too",
+    "description": "Adds RealTek RTL-8139 Fast Ethernet driver Support",
+    "author_url": "https://github.com/jls550225",
+    "packer_url": "https://github.com/jls550225/dsm/blob/main/8139too",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_42218": "https://raw.githubusercontent.com/jls550225/dsm/master/8139too/releases/ds3615xs_42218.json"
+  }
+}

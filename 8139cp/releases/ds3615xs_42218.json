@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "8139cp-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/8139cp/releases/8139cp-3.10.108.tgz",
+      "sha256": "775632a7a528e087592aa252c93d8096693bea828d05fa989c3ce94c3339b9ac",
+      "packed": true
+    },
+    {
+      "name": "check-8139cp.sh",
+      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/8139cp/src/check-8139cp.sh",
+      "sha256": "9aec26eb53afef29cab5df8530bdd32d407d1a77b6754e6c79f9e6d484cb6091",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "8139cp.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-8139cp.sh"
+  }
+
+}

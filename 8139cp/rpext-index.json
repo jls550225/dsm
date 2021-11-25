@@ -1,0 +1,14 @@
+{
+  "id": "jls550225.8139cp",
+  "url": "https://raw.githubusercontent.com/jls550225/dsm/master/8139cp/rpext-index.json",
+  "info": {
+    "name": "8139cp",
+    "description": "Adds RealTek RTL-8139C+ series 10/100 PCI Ethernet driver Support",
+    "author_url": "https://github.com/jls550225",
+    "packer_url": "https://github.com/jls550225/dsm/blob/main/8139cp",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_42218": "https://raw.githubusercontent.com/jls550225/dsm/master/8139cp/releases/ds3615xs_42218.json"
+  }
+}
