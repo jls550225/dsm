@@ -5,7 +5,7 @@
     {
       "name": "8139too-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/jls550225/dsm/master/8139too/releases/8139too-3.10.108.tgz",
-      "sha256": "d6eb5677acc74d7ec03bca8a7cf5042cb4239befebdeaeab22ddea0e57ecae7b",
+      "sha256": "3790c3178f38d887bd511dbdbcbc012e069c03b2ddc6be025668b18da8d68584",
       "packed": true
     },
     {
@@ -17,6 +17,7 @@
   ],
 
   "kmods": {
+    "mii.ko": "",
     "8139too.ko":""
   },
 

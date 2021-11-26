@@ -5,7 +5,7 @@
     {
       "name": "8139cp-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/jls550225/dsm/master/8139cp/releases/8139cp-3.10.108.tgz",
-      "sha256": "775632a7a528e087592aa252c93d8096693bea828d05fa989c3ce94c3339b9ac",
+      "sha256": "29a85cb8798802ba39530f7663e2176067b32245c8c28c56b4b441d5aa0d70fa",
       "packed": true
     },
     {
@@ -17,6 +17,7 @@
   ],
 
   "kmods": {
+    "mii.ko": "",
     "8139cp.ko":""
   },
 

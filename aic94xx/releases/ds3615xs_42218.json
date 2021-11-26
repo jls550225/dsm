@@ -5,7 +5,7 @@
     {
       "name": "aic94xx-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/jls550225/dsm/master/aic94xx/releases/aic94xx-3.10.108.tgz",
-      "sha256": "3dfc2770132121957708480bac421486c88a445cc424191545ee8726b7718497",
+      "sha256": "5d5531f6aef7247a0183659d7ba707cc32120c4e088fe0ff5994218d81e37ad7",
       "packed": true
     },
     {
@@ -17,6 +17,7 @@
   ],
 
   "kmods": {
+    "libsas.ko": "",
     "aic94xx.ko":""
   },
 
