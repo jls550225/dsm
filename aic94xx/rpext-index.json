@@ -9,6 +9,6 @@
     "help_url": "<todo>"
   },
   "releases": {
-    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aic94xx/releases/ds3615xs_42218.json"
+    "ds3615xs_42218": "https://raw.githubusercontent.com/jls550225/dsm/master/aic94xx/releases/ds3615xs_42218.json"
   }
 }
