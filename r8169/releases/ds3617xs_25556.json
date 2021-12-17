@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "r8169-3.10.105.tgz",
-      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/r8169/releases/r8169-3.10.105.tgz",
-      "sha256": "796eda06254e34356ed2b300cfd433ad1408a74fbb970a3a2c7e4b37698dfb96",
+      "name": "r8169-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/r8169/releases/r8169-3.10.108.tgz",
+      "sha256": "2c85a42c102e6e123060c0170d5e700a9b17d9d16608640848fcebe4c91d8f9a",
       "packed": true
     },
     {
@@ -17,7 +17,8 @@
   ],
 
   "kmods": {
-    "r8169.ko": ""
+    "mii.ko": "",
+    "r8169.ko":""
   },
 
     "scripts": {
