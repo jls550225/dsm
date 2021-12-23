@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "aacraid-3.10.108.tgz",
-      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/aacraid/releases/aacraid-3.10.108.tgz",
-      "sha256": "2d19746ffc293b9bbd064c4b42fbee07e961d9ca16085daba91072ffbd11a3d8",
+      "name": "aacraid-4.4.180p.tgz",
+      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/aacraid/releases/aacraid-4.4.180p.tgz",
+      "sha256": "fe5ea5baff28562d7080c9d70341c3a77990e482d775ee9813585e2572bd14f5",
       "packed": true
     },
     {
