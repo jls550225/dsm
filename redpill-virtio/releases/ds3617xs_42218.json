@@ -11,7 +11,7 @@
     {
       "name": "virtio-4.4.180p.tgz",
       "url": "https://raw.githubusercontent.com/jls550225/dsm/master/redpill-virtio/releases/virtio-4.4.180p.tgz",
-      "sha256": "205e72b13e0611ae6d4736d889bd304e8dacbbfa1f2a07757c34ee65c95b7737",
+      "sha256": "5606d7495dc2fa5df9d5f646896d1c49f27e97588cff96c6e950eb5fb7175f79",
       "packed": true
     }
   ],
@@ -19,14 +19,10 @@
   "kmods": {
     "virtio.ko": "",
     "virtio_ring.ko": "",
+    "virtio_input.ko": "",
     "virtio_mmio.ko": "",
     "virtio_pci.ko": "",
-    "virtio_blk.ko": "",
-    "virtio_net.ko": "",
-    "virtio_console.ko": "",
-    "virtio_input.ko": "",
-    "virtio_scsi.ko": "",
-    "virtio_balloon.ko": ""
+    "virtio_net.ko": ""
   },
 
   "scripts": {
