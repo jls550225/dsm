@@ -1,0 +1,24 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "alx-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/alx/releases/alx-4.4.180plus-broadwell.tgz",
+      "sha256": "966e5f6b90659194bbee469cfe15bf69571ad7332124b6c513c0b154acca78ce",
+      "packed": true
+    },
+    {
+      "name": "check-alx.sh",
+      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/alx/src/check-alx.sh",
+      "sha256": "6bf148077fb3c797439f3668b058f81731e1b76c9b385ad92004cb1b133d076a",
+      "packed": false
+    }
+  ],
+  "kmods": {
+    "mdio.ko": "",
+    "alx.ko": ""
+  },
+  "scripts": {
+    "on_boot": "check-alx.sh"
+  }
+}

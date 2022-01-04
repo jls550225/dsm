@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "alx-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/releases/alx-4.4.59plus.tgz",
+      "sha256": "5bdad32802c84d15e7563dbefdd2b9a6ffb068d606064ef2e1158fc2f7f658fe",
+      "packed": true
+    },
+    {
+      "name": "check-alx.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/src/check-alx.sh",
+      "sha256": "6bf148077fb3c797439f3668b058f81731e1b76c9b385ad92004cb1b133d076a",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "alx.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-alx.sh"
+  }
+
+}
