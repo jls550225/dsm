@@ -1,0 +1,23 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "mpt3sas-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/mpt3sas/releases/mpt3sas-4.4.180plus-broadwell.tgz",
+      "sha256": "b022bcd3f721c36aa47f2638461ff2586f8525a0b4282a1e11d69c48c6d07e43",
+      "packed": true
+    },
+    {
+      "name": "check-mpt3sas.sh",
+      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/mpt3sas/src/check-mpt3sas.sh",
+      "sha256": "dda35a6a428de55589e4e96d9de02e5911cf977dd777cb348b908ed6a165adaa",
+      "packed": false
+    }
+  ],
+  "kmods": {
+    "mpt3sas.ko": ""
+  },
+  "scripts": {
+    "on_boot": "check-mpt3sas.sh"
+  }
+}
