@@ -1,0 +1,23 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "hpsa-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/hpsa/releases/hpsa-4.4.180plus-broadwell.tgz",
+      "sha256": "b09987c4580a4de6715b18259391782ccb9b2618cd44cd3c787ad9b77b93ef3e",
+      "packed": true
+    },
+    {
+      "name": "check-hpsa.sh",
+      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/hpsa/src/check-hpsa.sh",
+      "sha256": "cd3fee3f2a0c0d9c045ee7a226196fcee1332c1716529a92f6a6b51518fab1ec",
+      "packed": false
+    }
+  ],
+  "kmods": {
+    "hpsa.ko": ""
+  },
+  "scripts": {
+    "on_boot": "check-hpsa.sh"
+  }
+}

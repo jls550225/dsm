@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "hpsa-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/hpsa-4.4.59plus.tgz",
+      "sha256": "cb0c0db48a3f1fc65bae83313d4d90721f05798e73d6ae60e24694c4781797c4",
+      "packed": true
+    },
+    {
+      "name": "check-hpsa.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/src/check-hpsa.sh",
+      "sha256": "cd3fee3f2a0c0d9c045ee7a226196fcee1332c1716529a92f6a6b51518fab1ec",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "scsi_transport_sas.ko": "",
+    "hpsa.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-hpsa.sh"
+  }
+
+}
