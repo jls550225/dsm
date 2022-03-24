@@ -10,6 +10,7 @@
   },
   "releases": {
     "ds3615xs_42218": "https://raw.githubusercontent.com/jls550225/dsm/master/aacraid/releases/ds3615xs_42218.json",
-    "ds3617xs_42218": "https://raw.githubusercontent.com/jls550225/dsm/master/aacraid/releases/ds3617xs_42218.json"
+    "ds3617xs_42218": "https://raw.githubusercontent.com/jls550225/dsm/master/aacraid/releases/ds3617xs_42218.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/jls550225/dsm/master/aic94xx/releases/ds918p_42218.json" 
   }
 }

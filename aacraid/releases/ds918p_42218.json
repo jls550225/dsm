@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "aacraid-4.4.180p.tgz",
+      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/aacraid/releases/aacraid-4.4.180p.tgz",
+      "sha256": "fe5ea5baff28562d7080c9d70341c3a77990e482d775ee9813585e2572bd14f5",
+      "packed": true
+    },
+    {
+      "name": "check-aacraid.sh",
+      "url": "https://raw.githubusercontent.com/jls550225/dsm/master/aacraid/src/check-aacraid.sh",
+      "sha256": "1c5b11b036ab7a9e98be8531366ce0b93884140e24036046d8be4add9dc19f82",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "aacraid.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-aacraid.sh"
+  }
+
+}
